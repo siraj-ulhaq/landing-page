@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: device-width;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 8px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+}
