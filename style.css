@@ -8,15 +8,15 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 8px;
+    padding: 10px 250px 10px;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
 }
 
 ul {
@@ -32,4 +32,64 @@ a {
     font-size: 24px;
     color: #f9faf8;
     text-decoration: none;
+}
+
+h1 {
+    color:#f9faf8;
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.section {
+    padding: 125px 250px 125px;
+    background-color: #1f2937;
+}
+
+.main, .media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: space-between;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+img {
+    height: 220px;
+    width: 400px;
+}
+
+button {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882F6;
+    text-align: center;
+    padding: 10px 30px 10px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 4px;
+    text-decoration: none;
+    border: 0px;
+    border-style: solid;
 }
