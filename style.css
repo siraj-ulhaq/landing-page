@@ -141,3 +141,38 @@ button {
     text-align: center;
     min-height: 150px;
 }
+
+.quote {
+    display: flex;
+    padding: 100px 300px 100px;
+    background-color: #e5e7eb;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tate-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-style: normal;
+}
+
+.credit {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
