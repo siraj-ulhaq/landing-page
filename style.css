@@ -97,7 +97,7 @@ button {
 .widgets {
     display: flex;
     flex-direction: column;
-    padding: 0px 300px 0px 300px;
+    padding: 0px 150px 0px 150px;
     margin-bottom: 50px;
     margin-top: 40px;
 }
@@ -115,7 +115,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    gap: 50px;
+    gap: 30px;
 }
 
 .card {
@@ -128,6 +128,7 @@ button {
 
 .images img {
     text-align: center;
+    object-fit: cover;
     width: 160px;
     height: 170px;
     border-radius: 10px;
@@ -137,7 +138,7 @@ button {
 
 .information {
     text-wrap: wrap;
-    width: 150px;
+    width: 180px;
     text-align: center;
     min-height: 150px;
 }
@@ -231,6 +232,6 @@ button {
 }
 
 .footer-container {
-    color: #f9faf8;
+    color: #9a9ea9;
     background-color: #1f2937;
 }
