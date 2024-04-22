@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    padding: 15px 250px 15px;
+    padding: 15px 350px 15px;
 }
 
 .logo {
@@ -47,7 +47,7 @@ p {
 }
 
 .section {
-    padding: 125px 250px 125px;
+    padding: 125px 350px 125px;
     background-color: #1f2937;
 }
 
@@ -56,7 +56,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 220px;
-    gap: 30px;
+    gap: 20px;
     box-sizing: border-box;
 }
 
@@ -97,7 +97,7 @@ button {
 .widgets {
     display: flex;
     flex-direction: column;
-    padding: 0px 250px 0px 250px;
+    padding: 0px 300px 0px 300px;
     margin-bottom: 50px;
     margin-top: 40px;
 }
@@ -144,7 +144,7 @@ button {
 
 .quote {
     display: flex;
-    padding: 100px 300px 100px;
+    padding: 100px 350px 100px;
     background-color: #e5e7eb;
 }
 
@@ -153,14 +153,18 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
 }
 
 .tate-quote {
+    display: flex;
+    flex-direction: column;
     color: #1f2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding-left: 50px;  
+    padding-right: 50px;
+    gap: 10px;
 }
 
 .author {
@@ -175,6 +179,58 @@ button {
     font-size: 20px;
 }
 
+.action {
+    padding: 100px 350px 100px;
+}
 
+.action-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3px;
+}
 
+.register {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.right-container button {
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px 25px 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 300px 30px;
+}
+
+.footer-container {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
